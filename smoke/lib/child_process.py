@@ -1,4 +1,4 @@
-﻿"""Child-process commands for smoke (avoid nested ``uv run`` on Windows).
+"""Child-process commands for smoke (avoid nested ``uv run`` on Windows).
 
 Nested ``uv run`` can try to refresh console scripts while they are locked
 (``claude-code-student.exe`` in use), causing flaky smoke. The smoke runner is
@@ -40,5 +40,5 @@ def cmd_CCS_init() -> list[str]:
     return [python_exe(), "-c", "from cli.entrypoints import init; init()"]
 
 
-def cmd_free_claude_code_serve() -> list[str]:
+def cmd_CCS_serve() -> list[str]:
     return [python_exe(), "-c", "from cli.entrypoints import serve; serve()"]

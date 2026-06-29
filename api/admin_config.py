@@ -1,4 +1,4 @@
-﻿"""Admin UI configuration manifest and managed env persistence."""
+"""Admin UI configuration manifest and managed env persistence."""
 
 from __future__ import annotations
 

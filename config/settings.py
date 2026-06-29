@@ -1,4 +1,4 @@
-﻿"""Centralized configuration using Pydantic Settings."""
+"""Centralized configuration using Pydantic Settings."""
 
 import os
 from collections.abc import Mapping

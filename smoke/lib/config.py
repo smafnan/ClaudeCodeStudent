@@ -1,4 +1,4 @@
-﻿"""Smoke-suite configuration loaded from the real developer environment."""
+"""Smoke-suite configuration loaded from the real developer environment."""
 
 from __future__ import annotations
 

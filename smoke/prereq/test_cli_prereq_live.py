@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import os
 import shutil
@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pytest
 
-from smoke.lib.child_process import cmd_CCS_init, cmd_free_claude_code_serve
+from smoke.lib.child_process import cmd_CCS_init, cmd_CCS_serve
 from smoke.lib.config import SmokeConfig
 from smoke.lib.server import start_server
 from smoke.lib.skips import skip_upstream_unavailable
@@ -34,10 +34,10 @@ def test_CCS_init_scaffolds_user_config(
     assert (tmp_path / ".ccs" / ".env").is_file()
 
 
-def test_free_claude_code_entrypoint_starts_server(smoke_config: SmokeConfig) -> None:
+def test_CCS_entrypoint_starts_server(smoke_config: SmokeConfig) -> None:
     with start_server(
         smoke_config,
-        command=cmd_free_claude_code_serve(),
+        command=cmd_CCS_serve(),
         env_overrides={"MESSAGING_PLATFORM": "none"},
         name="entrypoint",
     ) as server:

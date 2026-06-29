@@ -1,4 +1,4 @@
-﻿"""Tests for cli/entrypoints.py — ccs-init scaffolding logic."""
+"""Tests for cli/entrypoints.py — ccs-init scaffolding logic."""
 
 import tomllib
 from pathlib import Path

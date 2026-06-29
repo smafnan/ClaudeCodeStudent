@@ -1,4 +1,4 @@
-﻿"""Request builder for NVIDIA NIM provider."""
+"""Request builder for NVIDIA NIM provider."""
 
 from collections.abc import Callable
 from copy import deepcopy

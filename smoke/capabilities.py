@@ -1,4 +1,4 @@
-﻿"""Hierarchical public capability map.
+"""Hierarchical public capability map.
 
 This module is the architectural companion to ``smoke.features``.  The feature
 inventory says which public features must be covered; this map records the
@@ -399,7 +399,7 @@ CAPABILITY_CONTRACTS: tuple[CapabilityContract, ...] = (
         ("tests/cli/test_entrypoints.py",),
         (
             "test_CCS_init_scaffolds_user_config",
-            "test_free_claude_code_entrypoint_starts_server",
+            "test_CCS_entrypoint_starts_server",
         ),
     ),
     CapabilityContract(

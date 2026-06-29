@@ -1,4 +1,4 @@
-﻿"""Public feature inventory for contract, prerequisite, and product smoke tests.
+"""Public feature inventory for contract, prerequisite, and product smoke tests.
 
 The inventory is intentionally explicit. README-advertised behavior and exposed
 public surface area must have deterministic pytest contract coverage plus a
@@ -377,7 +377,7 @@ FEATURE_INVENTORY: tuple[FeatureCoverage, ...] = (
         ("tests/cli/test_entrypoints.py",),
         (
             "test_CCS_init_scaffolds_user_config",
-            "test_free_claude_code_entrypoint_starts_server",
+            "test_CCS_entrypoint_starts_server",
         ),
         ("test_entrypoint_init_e2e", "test_entrypoint_server_e2e"),
         ("cli",),

@@ -1,4 +1,4 @@
-﻿"""Shared filesystem paths for ClaudeCodeStudent configuration."""
+"""Shared filesystem paths for ClaudeCodeStudent configuration."""
 
 from pathlib import Path
 

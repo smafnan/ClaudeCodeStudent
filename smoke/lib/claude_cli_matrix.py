@@ -1,4 +1,4 @@
-﻿"""Claude Code CLI characterization helpers for provider smoke matrices."""
+"""Claude Code CLI characterization helpers for provider smoke matrices."""
 
 from __future__ import annotations
 

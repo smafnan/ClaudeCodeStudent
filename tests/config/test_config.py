@@ -1,4 +1,4 @@
-﻿"""Tests for config/settings.py and config/nim.py"""
+"""Tests for config/settings.py and config/nim.py"""
 
 from typing import Any, cast
 

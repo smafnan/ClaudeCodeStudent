@@ -1,4 +1,4 @@
-﻿"""Tests for providers/nvidia_nim/request.py."""
+"""Tests for providers/nvidia_nim/request.py."""
 
 from copy import deepcopy
 from types import SimpleNamespace

@@ -1,4 +1,4 @@
-﻿"""Provider-specific exception mapping and user-visible diagnostics."""
+"""Provider-specific exception mapping and user-visible diagnostics."""
 
 import json
 from dataclasses import dataclass

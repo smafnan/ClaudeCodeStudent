@@ -1,4 +1,4 @@
-﻿"""Limits and defaults for outbound web server tool HTTP."""
+"""Limits and defaults for outbound web server tool HTTP."""
 
 _REQUEST_TIMEOUT_S = 20.0
 _MAX_SEARCH_RESULTS = 10

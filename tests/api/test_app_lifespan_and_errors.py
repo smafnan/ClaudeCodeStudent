@@ -1,4 +1,4 @@
-﻿import importlib
+import importlib
 from collections.abc import MutableMapping
 from types import SimpleNamespace
 from typing import Any, cast

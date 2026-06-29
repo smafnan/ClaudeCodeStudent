@@ -1,4 +1,4 @@
-﻿"""Reusable product E2E smoke drivers."""
+"""Reusable product E2E smoke drivers."""
 
 from __future__ import annotations
 
