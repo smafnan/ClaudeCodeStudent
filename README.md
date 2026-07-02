@@ -28,17 +28,6 @@ ClaudeCodeStudent routes Anthropic Messages API traffic from Claude Code to any 
   <img src="assets/cc-model-picker.png" alt="Claude Code model picker showing gateway models" width="700">
 </div>
 
-## Star History
-
-<div align="center">
-  <a href="https://star-history.com/#parkersous/ClaudeCodeStudent&Date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=parkersous/ClaudeCodeStudent&type=Date&theme=dark">
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=parkersous/ClaudeCodeStudent&type=Date">
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=parkersous/ClaudeCodeStudent&type=Date" width="700">
-    </picture>
-  </a>
-</div>
 
 ## What You Get
 
