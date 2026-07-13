@@ -1,4 +1,4 @@
-﻿param(
+param(
     [switch] $VoiceNim,
     [switch] $VoiceLocal,
     [switch] $VoiceAll,
@@ -12,7 +12,7 @@
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-$RepoGitUrl = "git+https://github.com/parkersous/ClaudeCodeStudent.git"
+$RepoGitUrl = "git+https://github.com/smafnan/ClaudeCodeStudent.git"
 $PythonVersion = "3.14.0"
 $MinUvVersion = "0.11.0"
 $UvInstallUrl = "https://astral.sh/uv/install.ps1"

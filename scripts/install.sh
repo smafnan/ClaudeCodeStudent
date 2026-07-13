@@ -1,7 +1,7 @@
-﻿#!/bin/sh
+#!/bin/sh
 set -eu
 
-REPO_GIT_URL="git+https://github.com/parkersous/ClaudeCodeStudent.git"
+REPO_GIT_URL="git+https://github.com/smafnan/ClaudeCodeStudent.git"
 PYTHON_VERSION="3.14.0"
 MIN_UV_VERSION="0.11.0"
 UV_INSTALL_URL="https://astral.sh/uv/install.sh"
